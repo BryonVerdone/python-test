@@ -10,3 +10,43 @@ if(x>y):
   print('i like tacos')
 
   # this is a comment
+
+  # Casting 
+
+  someString= str(3)
+
+  print(type(someString))
+
+a,b,c= 'taco','green','truck'
+
+print(a,b,c)
+
+# Unpacking a collection 
+
+fruits= ['apple','banana','orange']
+d,e,f= fruits
+print(d,e,f)
+
+bryonsAge= 28
+print(name,bryonsAge) 
+
+def addnums(num1,num2):
+  print(num1+num2)
+
+addnums(13,52)
+
+# print random number
+import random
+
+from more_itertools import last
+
+print(random.randrange(1,654))
+
+# get a character from a string
+
+lastName= 'verdone'
+
+print(lastName[3])
+
+for letter in lastName:
+  print(letter)
