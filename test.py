@@ -3,7 +3,7 @@
 # print('this is python')
 # x= 5
 # y=3
-# name= 'bryon'
+
 # print(name)
 # if(x>y):
 #   print('x is bigger than y')
@@ -50,6 +50,8 @@
 
 # for letter in lastName:
 #   print(letter)
+
+# name= 'bryon'
 print('hello and welcome to our coffee shop!!!!!')
 name= input('Hello what is your name? \n')
 
