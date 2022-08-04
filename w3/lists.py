@@ -51,11 +51,33 @@
 # for letter in lastName:
 #   print(letter)
 
-# name= 'bryon'
-print('hello and welcome to our coffee shop!!!!!')
-name= input('Hello what is your name? \n')
+# LISTS ##########################################
 
-print(f'hello {name} what would you like to drink? Here is our menu')
-order= input('black coffee,tea, latte \n')
+# List items can be of any data type
 
-print(f'greet choice I\'ll get your {order} for you right now')
+friends= ['david','jer','nick','brett']
+
+print(friends[2])
+print(len(friends))
+
+
+# Range of Indexes
+
+fruit = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango",'blueberry']
+print(fruit[2:6])
+
+# print items from the start up to index
+print(fruit[:4])
+# print items from starting index to the end
+
+print(fruit[3:])
+
+# check to see if item is in list
+if 'blueberry' in fruit:
+  print('yes we have blueberries')
+else:
+  print('sorry no blueberries')
+
+  # Change Item Value
+fruit[0]= 'carrot'
+print(fruit)
