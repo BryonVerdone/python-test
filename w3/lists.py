@@ -55,6 +55,8 @@
 
 # List items can be of any data type
 
+
+
 friends= ['david','jer','nick','brett']
 
 print(friends[2])
@@ -81,3 +83,38 @@ else:
   # Change Item Value
 fruit[0]= 'carrot'
 print(fruit)
+# Add list items
+newList= ['taco','pizza','cookie']
+# newList.insert(2,'apple')
+print(newList)
+anotherList=['rock','stick','tree']
+
+# The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+
+newList.append('soup')
+print(newList)
+newList.extend(anotherList)
+print(newList)
+
+# Remove list items
+
+newList.remove('taco')
+print(newList)
+
+# The pop() method removes the specified index.
+
+newList.pop(3)
+print(newList)
+
+# The clear() method empties the list. The list still remains, but it has no content.
+
+clearThisList= ['shoe','shirt','pants']
+clearThisList.clear()
+print(clearThisList)
+
+# Loop Through a List
+
+shoes= ['nike','adidas','new balance']
+
+for i in shoes:
+  print(i)
